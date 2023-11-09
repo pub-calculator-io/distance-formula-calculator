@@ -13,6 +13,8 @@ Distance formula calculator finds the distance between two points on a plane bas
 
 Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  
 
+[Distance Formula Calculator Homepage](https://www.calculator.io/distance-formula-calculator/ "Distance Formula Calculator Homepage")
+
 __Shortcode__
 
 Use the Distance Formula Calculator shortcode:
