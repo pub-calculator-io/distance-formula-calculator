@@ -1,4 +1,4 @@
-# Distance Formula Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Distance Formula Calculator Widget for WordPress
 
 Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  
 
