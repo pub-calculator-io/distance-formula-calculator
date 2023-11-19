@@ -1,4 +1,4 @@
-=== Distance Formula Calculator ===
+=== Distance Formula Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: distance, distance calculator, distance formula, distance between two points, calculator
 Requires at least: 5.0
