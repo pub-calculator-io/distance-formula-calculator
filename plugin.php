@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Distance Formula Calculator by www.calculator.io
+Plugin Name: CI Distance formula calculator
 Plugin URI: https://www.calculator.io/distance-formula-calculator/
 Description: Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  
 Version: 1.0.0
