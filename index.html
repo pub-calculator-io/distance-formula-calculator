@@ -28,14 +28,14 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col speed-calculator,kinetic-energy-calculator,pace-calculator,velocity-calculator,distance-calculator  ">
                 			<p class="input__title">X₁</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="x_1" value="-7"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col speed-calculator,kinetic-energy-calculator,pace-calculator,velocity-calculator,distance-calculator  ">
                 			<p class="input__title">Y₁</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="y_1" value="-4"  />
@@ -44,14 +44,14 @@
                 		
                 		</label>	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col speed-calculator,kinetic-energy-calculator,pace-calculator,velocity-calculator,distance-calculator  ">
                 			<p class="input__title">X₂</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="x_2" value="17"  />
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col speed-calculator,kinetic-energy-calculator,pace-calculator,velocity-calculator,distance-calculator  ">
                 			<p class="input__title">Y₂</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="y_2" value="6.5"  />
@@ -66,13 +66,16 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -87,12 +90,11 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Answer</p>
 	<div class="table-cell table-cell--big row">
-		<p class="result-text" id="result">d = 26.196373794859472</p>
+		<p class="result-text animate" id="result">d = 26.196373794859472</p>
 	</div>
 </div>
 </span>

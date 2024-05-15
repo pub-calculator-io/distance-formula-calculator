@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Distance Formul
 == Screenshots ==
 
 1. The Distance Formula Calculator Input Form.
-2. The Distance Formula Calculator Calculation Results.
 
 == Installation ==
 

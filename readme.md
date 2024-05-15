@@ -3,7 +3,6 @@
 Distance formula calculator finds the distance between two points on a plane based on their coordinates. The calculator uses the Euclidean distance formula.  
 
 ![Distance Formula Calculator Input Form](/assets/images/screenshot-1.png "Distance Formula Calculator Input Form")
-![Distance Formula Calculator Calculation Results](/assets/images/screenshot-2.png "Distance Formula Calculator Calculation Results")
 
 ## Installation
 
